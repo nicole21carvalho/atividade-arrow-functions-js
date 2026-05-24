@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 - Calculadora com Arrow Functions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script2.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <h1>Calculadora com Arrow Functions</h1>
+
+        <p class="descricao">
+            Escolha uma operação para calcular o quadrado, o cubo ou a raiz quadrada de um número.
+            Cada resultado será exibido em uma lista.
+        </p>
+
+        <form id="calculadoraForm">
+            <label for="numero">Digite um número:</label>
+            <input type="number" id="numero" name="numero" step="any" required>
+
+            <label for="operacao">Escolha a operação:</label>
+            <select id="operacao" name="operacao" required>
+                <option value="">Selecione uma opção</option>
+                <option value="quadrado">Quadrado</option>
+                <option value="cubo">Cubo</option>
+                <option value="raiz">Raiz quadrada</option>
+            </select>
+
+            <button type="submit">Calcular</button>
+        </form>
+
+        <section class="resultado">
+            <p><strong>Resultados:</strong></p>
+            <ul id="listaResultados"></ul>
+        </section>
+    </main>
+</body>
+</html>
