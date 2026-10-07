@@ -1,11 +1,11 @@
-# Atividade - Função Arrow em JavaScript
+# ➡️ Atividade - Função Arrow em JavaScript
 
 Este projeto resolve as atividades do material "Função Arrow em JavaScript".
 
-## Atividade 1
+## 🧩 Atividade 1
 Modifica a função que trata o evento `submit` do formulário para ser uma arrow function, mantendo a funcionalidade de calcular o quadrado.
 
-## Atividade 2
+## 🧩 Atividade 2
 Cria uma calculadora com três operações:
 - Quadrado
 - Cubo
@@ -13,7 +13,7 @@ Cria uma calculadora com três operações:
 
 Todas as operações foram feitas com arrow functions. Também foi adicionado um `<select>` para o usuário escolher a operação desejada. A cada execução, o resultado é adicionado em uma lista na tela.
 
-## Como abrir no VS Code
+## 💻 Como abrir no VS Code
 
 1. Extraia o arquivo ZIP.
 2. Abra o VS Code.
